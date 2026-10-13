@@ -1,0 +1,6 @@
+{
+  "name": "Void Crawler",
+  "description": "Um magnífico roguelike de exploração em labirinto procedural cyberpunk/glitch, onde você controla uma entidade de dados sobrevivendo a processos corrompidos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
