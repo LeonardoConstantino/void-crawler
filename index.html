@@ -1,18 +1,65 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-    <meta name="description" content="An application built with Google AI Studio." />
-    <meta property="og:title" content="My Google AI Studio App" />
-    <meta property="og:description" content="An application built with Google AI Studio." />
+    <title>Void Crawler – Roguelike Cyberpunk no Labirinto Digital</title>
+    <meta
+      name="description"
+      content="Sobreviva à corrupção digital em Void Crawler, um roguelike arcade cyberpunk procedural. Colete fragmentos de dados, acione Kernel Exploits e escape dos espectros de memória."
+    />
+    <meta name="keywords" content="roguelike, cyberpunk, arcade, pacman, glitch art, procedural maze, retro game, void crawler, html5 game" />
+    <meta name="theme-color" content="#030712" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://leonardoconstantino.github.io/void-crawler/" />
+
+    <!-- OpenGraph Metadata -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Void Crawler" />
+    <meta property="og:url" content="https://leonardoconstantino.github.io/void-crawler/" />
+    <meta property="og:title" content="Void Crawler – Roguelike Cyberpunk no Labirinto Digital" />
+    <meta
+      property="og:description"
+      content="Sobreviva à corrupção digital em Void Crawler, um roguelike arcade cyberpunk procedural. Colete fragmentos de dados, acione Kernel Exploits e escape dos espectros de memória."
+    />
+    <meta property="og:image" content="https://leonardoconstantino.github.io/void-crawler/assets/hero.png" />
+
+    <!-- Twitter / X Cards -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://leonardoconstantino.github.io/void-crawler/" />
+    <meta name="twitter:title" content="Void Crawler – Roguelike Cyberpunk no Labirinto Digital" />
+    <meta
+      name="twitter:description"
+      content="Sobreviva à corrupção digital em Void Crawler, um roguelike arcade cyberpunk procedural. Colete fragmentos de dados, acione Kernel Exploits e escape dos espectros de memória."
+    />
+    <meta name="twitter:image" content="https://leonardoconstantino.github.io/void-crawler/assets/hero.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Void Crawler",
+      "applicationCategory": "GameApplication",
+      "genre": ["Roguelike", "Arcade", "Cyberpunk"],
+      "operatingSystem": "Web Browser",
+      "description": "Roguelike arcade cyberpunk com labirinto procedural, manipulação de camadas de memória e áudio sintetizado em tempo real.",
+      "url": "https://leonardoconstantino.github.io/void-crawler/",
+      "author": {
+        "@type": "Person",
+        "name": "leonardoconstantino"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
   </head>
-  <body>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
